@@ -28,7 +28,7 @@ int main(int argc, char **argv)
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
   glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-  window = glfwCreateWindow(640, 480, "Sick Badass", NULL, NULL);
+  window = glfwCreateWindow(640, 480, "Single Point", NULL, NULL);
   if (!window) {
     glfwTerminate();
     exit(EXIT_FAILURE);
